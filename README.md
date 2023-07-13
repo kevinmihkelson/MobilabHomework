@@ -52,7 +52,7 @@ The following models are used in the app:
 * **TaskList**
     * id: A unique identifier for the task list
     * title: The title of the task list
-    * tasks: A List of ==TaskParent== objects. Each == TaskParent == object represents a task in the task list.
+    * tasks: A List of **TaskParent** objects. Each **TaskParent** object represents a task in the task list.
     
 * **Task**
     * id: A unique identifier for the task
@@ -61,10 +61,10 @@ The following models are used in the app:
     
 * **TaskParent**
     * name: The name of the parent task, which is provided by the Firebase Database RestAPI.
-    * task: A == Task == object
+    * task: A **Task** object
 
 * **FirebaseTaskList**
     * id: A unique identifier for the task list
     * title: The title of the task list.
-    * tasks: A dictionary that maps task names to == Task == objects.
+    * tasks: A dictionary that maps task names to **Task** objects.
     
